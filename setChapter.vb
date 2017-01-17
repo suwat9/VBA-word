@@ -11,7 +11,7 @@ Selection.HomeKey unit:=wdStory
     With Selection.Find
     .Forward = True
     .Wrap = wdFindStop
-    .Text = "º··Õè"
+    .Text = "บทที่"
     .Execute
     Do While .Found
          setChapStyle
